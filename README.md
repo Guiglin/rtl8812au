@@ -1,5 +1,5 @@
 ## Changes
-2019-07-11: Updated to compile against kernel 5.2
+2022-01-25: Updated to compile against kernel 5.15 and above
 
 ## Realtek 802.11ac (rtl8812au)
 
@@ -17,6 +17,8 @@ deprecation of the `create_proc_entry()` and `create_proc_read_entry()`
 functions in favor of the new `proc_create()` function.
 
 ### Building
+
+Before building, ensure that kernel headers are installed
 
 The Makefile is preconfigured to handle most x86/PC versions.  If you are compiling for something other than an intel x86 architecture, you need to first select the platform, e.g. for the Raspberry Pi, you need to set the I386 to n and the ARM_RPI to y:
 ```sh
