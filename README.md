@@ -1,5 +1,7 @@
 ## Changes
-2022-01-25: Updated to compile against kernel 5.15 and above
+- 2022-06-02: Updated to compile against kernel 5.18
+
+- 2022-01-25: Updated to compile against kernel 5.15 and above
 
 ## Realtek 802.11ac (rtl8812au)
 
